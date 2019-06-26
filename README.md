@@ -2,13 +2,13 @@
 
 #### 包含了
 
-1 样式加载器css，sass，less
+##### 1 样式加载器css，sass，less
 
-2 图片加载器
+##### 2 图片加载器
 
-3 webpack-dev-server本地开发热更新
+##### 3 webpack-dev-server本地开发热更新
 
-4 babel配置：
+##### 4 babel配置：
 
 （1）babel：解决不支持语法转义es6转义为es5
 
@@ -23,7 +23,6 @@ cnpm i --save-dev babel-polyfill
 cnpm i --save-dev @babel/plugin-transform-runtime
 
 cnpm i --save @babel/runtime
-
 
 在打包的过程中，babel会在包里提供一些工具函数，而这些工具函数可能会重复的出现在多个模块。这样会导致打包的体积过大，所以babel提供了babel-transform-runtime解决这个体积过大的问题
 

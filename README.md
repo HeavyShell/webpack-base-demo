@@ -1,6 +1,6 @@
-webpack基础demo，可用于构建webpack项目
+### webpack基础demo，可用于构建webpack项目
 
-包含了
+#### 包含了
 
 1 样式加载器css，sass，less
 
@@ -27,7 +27,7 @@ cnpm i --save @babel/runtime
 
 在打包的过程中，babel会在包里提供一些工具函数，而这些工具函数可能会重复的出现在多个模块。这样会导致打包的体积过大，所以babel提供了babel-transform-runtime解决这个体积过大的问题
 
-使用：
+#### 使用：
 
 1 下载包解压，进入目录
 

@@ -1,0 +1,13 @@
+body{
+	.demo03{
+		border:1px solid #333;
+		padding:20px;
+		margin-top:20px;
+		.demo03_d{
+			border:1px solid #811;
+			padding:20px;
+			// background:url(./images/3.png) no-repeat center center;
+			background-size:auto 100%;
+		}
+	}
+}
